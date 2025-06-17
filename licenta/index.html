@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>License Roadmap - Deep Web Theme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Overlay for fullscreen -->
+    <div class="overlay" id="overlay" onclick="closeChapter()"></div>
+
+    <!-- Matrix Rain Background -->
+    <div class="matrix-bg" id="matrix"></div>
+
+    <!-- Header -->
+    <div class="header">
+        <h1 class="title glitch">DEEP WEB RESEARCH</h1>
+        <p class="subtitle">► Licență - Facultatea de Matematică ◄</p>
+    </div>
+
+    
+
+    <!-- Main Container -->
+    <div class="container">
+        <div class="roadmap">
+            <!-- Curved Dotted Path -->
+            <div class="curved-path">
+                <svg viewBox="0 0 1200 1400" preserveAspectRatio="xMidYMid meet">
+                    <path d="M 600 150 
+                             C 600 200, 400 280, 200 390
+                             C 100 450, 150 500, 300 520
+                             C 450 540, 800 580, 1000 630
+                             C 1100 660, 1050 720, 900 760
+                             C 750 800, 400 840, 200 870
+                             C 100 890, 150 930, 300 960
+                             C 450 990, 550 1020, 600 1080
+                             C 650 1140, 600 1200, 600 1350" />
+                </svg>
+            </div>
+
+            <!-- Chapters -->
+            <div class="chapter" onclick="openChapter(this)">
+                <div class="chapter-number">01</div>
+                <button class="close-btn" onclick="event.stopPropagation(); closeChapter()">×</button>
+                <h3 class="chapter-title">INTRODUCERE</h3>
+                <p class="chapter-preview">Contextul cercetării, motivația și obiectivele...</p>
+                <div class="chapter-content">
+                    <ul>
+                        <li>Definirea problemei de cercetare</li>
+                        <li>Motivația personală și profesională</li>
+                        <li>Obiectivele generale și specifice</li>
+                        <li>Structura lucrării</li>
+                    </ul>
+                </div>
+                <div class="detailed-content">
+                    <div class="content-section">
+                        <h4>Contextul Problemei</h4>
+                        <p>Deep Web-ul reprezintă o parte vastă și în mare parte inexploată a internetului, estimată să fie de 400-500 de ori mai mare decât web-ul de suprafață. Această cercetare explorează metodologiile de navigare și analiza conținutului din această zonă obscură a internetului.</p>
+                    </div>
+                    <div class="content-section">
+                        <h4>Motivația</h4>
+                        <p>• Motivația personală a acestei lucrări este de a aduna cât mai multe cunoștințe despre acest domeniu pentru a îmi deschide un orizont nou în ceea ce privește o viitoare posibilă carieră în securitate cibernetică.</p>
+                        <p>• Motivația profesională a acestei lucrări este de a înțelege mai bine riscurile și oportunitățile asociate cu Deep Web-ul, atât din perspectiva utilizatorilor legitimi cât și a celor malițioși. Această cercetare își propune să contribuie la dezvoltarea unor soluții de securitate cibernetică mai eficiente.</p>
+
+                    </div>
+                    <div class="content-section">
+                        <h4>Obiective</h4>
+                        <p>• Identificarea și catalogarea principalelor metode de acces<br>
+                        • Analiza riscurilor și măsurilor de securitate<br>
+                    </div>
+                    <div class="content-section">
+                        <h4>Structura Lucrării</h4>
+                        <p>Lucrarea este structurată în patru capitole, fiecare abordând un aspect esențial al Deep Web-ului, de la fundamentele teoretice până la concluziile și recomandările pentru cercetări viitoare.</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="chapter" onclick="openChapter(this)">
+                <div class="chapter-number">02</div>
+                <button class="close-btn" onclick="event.stopPropagation(); closeChapter()">×</button>
+                <h3 class="chapter-title">Internetul</h3>
+                <p class="chapter-preview">Ce este mai exanctu internetul?</p>
+                <div class="chapter-content">
+                    <ul>
+                        <li>Ce este internetul?</li>
+                        <li>Structura internetului</li>
+                        <ul>
+                            <li> Surface Web</li>
+                            <li> Deep Web</li>
+                            <li> Dark Web</li>
+                        </ul>
+                    </ul>
+                   
+                    
+                    
+                </div>
+                <div class="detailed-content">
+                    <div class="content-section">
+                        <h4>Ce este internetul?</h4>
+                        <p>Internetul este o rețea globală care permite schimbul de date între miliarde de dispozitive. </p>
+                    </div>
+                    <div class="content-section">
+                        <h4>Structura internetului</h4>
+                        <ul>
+                            <li> Surface Web este partea internetului public accesibilă, prin intermediul motoarelor de căuatre clasice(Google, Bing, Yahoo). </li>
+                            <li> Deep Web este reperzentat de conținutul care nu este indexat de către motoarele de căutare. Include date cu acces restricționat(care necesita o parola), dar legal.</li>
+                            <li> Dark Web este o parte a Deep Web-ului care este intenționat ascunsă și necesită software specializat pentru acces, cum ar fi Tor. Este adesea asociat cu activități ilegale, dar include și conținut legitim.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chapter" onclick="openChapter(this)">
+                <div class="chapter-number">03</div>
+                <button class="close-btn" onclick="event.stopPropagation(); closeChapter()">×</button>
+                <h3 class="chapter-title">Deep Web</h3>
+                <p class="chapter-preview">Metode de căutare, publicare a unui site și stocare a datelor pe Deep Web...</p>
+                <div class="chapter-content">
+                    <ul>
+                        <li>
+                           Metode de căutare pe Deep Web
+                           <ul>
+                            <li>Limitările motoarelor de căutare convenționale </li>
+                            <li>Motoare de căutare specializate pentru Deep Web</li>
+                           </ul>
+                        </li>
+                        <li>
+                            Metode de publicare a unui site pe Deep Web
+                            <ul>
+                             <li>Utilizarea rețelelor de anonimizare (ex: Tor)</li>
+                             <li>Configurarea serverelor și a serviciilor de găzduire</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Principalele servicii ale Deep Web
+                            <ul>
+                                <li>Forumuri și comunități online</li>
+                                <li>Servicii de mesagerie criptată</li>
+                                <li>Magazine online (ex: Darknet markets)</li>
+                                <li>File-sharing</li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="detailed-content">
+                    <div class="content-section">
+                        <h4>Metode de căutare pe Deep Web</h4>
+                        <p>• Limitările motoarelor de căutare convenționale: Majoritatea conținutului din Deep Web nu este indexat de motoarele de căutare tradiționale, ceea ce face dificilă găsirea informațiilor relevante.</p>
+                        <p>• Motoare de căutare specializate pentru Deep Web: Există motoare de căutare dedicate, cum ar fi Ahmia sau Not Evil, care indexează conținutul din rețelele de anonimizare.</p>
+                    </div>
+                    <div class="content-section">
+                        <h4>Metode de publicare a unui site pe Deep Web</h4>
+                        <p>• OnionShare este o aplicație open-source care permite partajarea anonimă de fișiere, găzduirea de site-uri web statice sau crearea de chat-uri private direct prin rețeaua Tor, fără a necesita configurarea unui server web tradițional. Prin OnionShare, utilizatorul poate genera rapid un serviciu .onion temporar, accesibil doar celor care dețin link-ul unic generat, asigurând astfel confidențialitatea și securitatea transferului de date pe Deep Web.</p>
+                        <p>• Configurarea manuală a unui server pe Deep Web poate implica utilizarea unor instrumente precum <b>mkp224o</b> pentru generarea de adrese .onion personalizate (vanity). Acest proces presupune rularea unui server web (ex: Apache, Nginx) configurat să accepte conexiuni prin rețeaua Tor, precum și gestionarea atentă a cheilor private și a setărilor de anonimitate pentru a asigura securitatea și confidențialitatea serviciului publicat.</p>
+                    </div>
+                    <div class="content-section">
+                        <h4>Principalele servicii ale Deep Web</h4>
+                        <p>• Forumuri și comunități online: Acestea oferă un spațiu pentru discuții despre subiecte variate, de la tehnologie la activități ilegale, și sunt adesea protejate prin criptare.</p>
+                        <p>• Servicii de mesagerie criptată: Platforme precum Ricochet sau Tor Messenger permit comunicarea anonimă și sigură între utilizatori, protejându-le identitatea și conținutul mesajelor.</p>
+                        <p>• Magazine online (ex: Darknet markets): Acestea sunt platforme de comerț electronic care facilitează tranzacții anonime, adesea cu bunuri și servicii ilegale, dar și cu produse legitime.</p>
+                        <p>• File-sharing: Servicii precum ZeroBin sau Pastebin permit partajarea de fișiere și texte într-un mod anonim, fără a necesita înregistrare sau identificare.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chapter" onclick="openChapter(this)">
+                <div class="chapter-number">04</div>
+                <button class="close-btn" onclick="event.stopPropagation(); closeChapter()">×</button>
+                <h3 class="chapter-title">Distribuția Linux Kodachi</h3>
+                <p class="chapter-preview">Utilizarea acesteia in contextul Deep Web</p>
+                <div class="chapter-content">
+                    <ul>
+                        <li>Ce este și pentru ce se folosește</li>
+                        <li>Tor over VPN vs VPN over Tor</li>
+                        <ul>
+                            <li>Explicație tehnică</li>
+                            <li>Avantaje și dezavantaje</li>
+                            <li>Când și cum le folosim</li>
+                        </ul>
+                        <li>Implementarea Tor over VPN/VPN over Tor în Kodachi</li>
+                        <li>Utilizarea acesteia în contextul Deep Web</li>
+                    </ul>
+                </div>
+                <div class="detailed-content">
+                    <div class="content-section">
+                        <h4>Ce este și la ce se folosește</h4>
+                        <p>Distribuția Kodachi, este o distribuție Linux, bazată pe debian, creată de un singur dezvoltator, un expert în securitate din Oman. Distribuția Kodachi este special concepută pentru a naviga în mod anonim, deoarece redirecționeză tot traficul prin VPN+Tor oferind în plus si protecție DNS, firewall, criptare, etc</p>
+                    </div>
+                    <div class="content-section">
+                        <h4>Tor over VPN vs VPN over Tor</h4>
+                        <ul>
+                            <li>Explicație tehnică</li>
+                                <p>• Tor over VPN: Traficul este criptat de VPN înainte de a fi trimis prin rețeaua Tor, oferind un strat suplimentar de securitate și anonimitate.</p>
+                                <p>• VPN over Tor: Traficul este trimis prin rețeaua Tor înainte de a fi criptat de VPN, ceea ce poate oferi un nivel diferit de anonimitate și securitate.</p>
+                            <br><li>Avantaje și dezavantaje</li>
+                                <p>• Tor over VPN: Avantajul principal este că ISP-ul nu poate vedea că se folosește Tor, dar VPN-ul poate vedea că se folosește Tor.</p>
+                                <p>• VPN over Tor: Avantajul este că ISP-ul nu poate vedea nici VPN-ul, dar poate fi mai lent și mai complicat de configurat.</p>
+                            <br><li>Când și cum le folosim</li>
+                                <p>• Tor over VPN este recomandat pentru utilizatorii care doresc să ascundă utilizarea Tor de ISP și să beneficieze de viteze mai mari.</p>
+                                <p>• VPN over Tor este util pentru utilizatorii care doresc să ascundă identitatea VPN-ului, folosit atunci când accesăm un serviciu care restricționează traficul provenit din rețeaua Tor, dar necesită o configurare mai complexă.</p>
+                            
+                        </ul>
+                    </div>
+                    <div class="content-section">
+                        <h4>Implementarea lor in distribuția Kodachi</h4>
+                            <p>• Distribuția Kodachi permite utilizatorilor să configureze ușor Tor over VPN sau VPN over Tor prin intermediul interfeței grafice, oferind opțiuni preconfigurate pentru ambele scenarii, facilitând astfel accesul la Deep Web într-un mod sigur și anonim.</p>
+                    </div>
+                    <div class="content-section">
+                        <h4>Utilizarea acesteia în contextul Deep Web</h4>
+                        <p>• Distribuția Kodachi este ideală pentru navigarea pe Deep Web, deoarece oferă un mediu securizat și anonim, protejând utilizatorii de amenințările cibernetice și asigurând confidențialitatea datelor personale.</p>
+                        <p>• Utilizatorii pot accesa site-uri .onion și alte resurse din Deep Web fără a fi expuși riscurilor de securitate, beneficiind în același timp de viteze de navigare mai mari comparativ cu alte distribuții care nu integrează aceste tehnologii.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chapter" onclick="openChapter(this)">
+                <div class="chapter-number">05</div>
+                <button class="close-btn" onclick="event.stopPropagation(); closeChapter()">×</button>
+                <h3 class="chapter-title">Concluzii</h3>
+                <p class="chapter-preview">Discutarea rezultatelor și bune practici...</p>
+                <div class="chapter-content">
+                    <p>• Sinteza principalelor rezultate</p>
+                    <p>• Recomandări de bune practici</p>
+                    
+                </div>
+                <div class="detailed-content">
+                    <div class="content-section">
+                        <h4>Sinteza principalelor rezultate</h4>
+                        <p>• Navigarea pe Deep Web necesită instrumente și tehnici specifice pentru a asigura securitatea și anonimitatea utilizatorilor.</p>
+                        <p>• Distribuția Kodachi oferă un mediu sigur și eficient pentru accesarea Deep Web-ului, integrând tehnologii precum Tor over VPN și VPN over Tor.</p>
+                    </div>
+                    <div class="content-section">
+                        <h4>Recomandări de bune practici</h4>
+                        <p>• Folosirea unui VPN încă din faza cercetării domeniului, mai ales în momentul descărcării distribuției Linux sau a platformelor Tor deoarece, chiar dacă sunt open-source acestea sunt supravegheate constant de către organizațiile speciale care monitorizează securitatea cibernetică.</p>
+                        <p>• Utilizarea distribuțiilor specializate, cum ar fi Kodachi, pentru a naviga în mod sigur pe Deep Web.</p>
+                        <p>• Configurarea corectă a rețelelor de anonimizare și a VPN-urilor pentru a proteja identitatea și datele personale.</p>
+                        <p>• Conștientizarea riscurilor asociate cu Deep Web-ul și adoptarea măsurilor de precauție adecvate.</p>
+                        <p>• Participarea la comunități de securitate cibernetică pentru a rămâne la curent cu cele mai bune practici și tehnici de protecție.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
